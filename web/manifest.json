@@ -1,0 +1,16 @@
+{
+    "name": "IntelliQAi",
+    "description": "PDF QA powered by ChatGPT.",
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/intelliqai-icon.png"
+    },
+    "manifest_version": 3
+}
